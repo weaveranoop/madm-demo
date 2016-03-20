@@ -1,0 +1,198 @@
+/* Global Styles */  
+  
+*{  
+    padding: 0; /* Reset all padding to 0 */  
+    margin: 0; /* Reset all margin to 0 */  
+}  
+  
+body{  
+    background: #F9F9F9; /* Set HTML background color */  
+    font: 16px "Lucida Grande";  /* Set global font size & family */  
+    color: #464646; /* Set global text color */  
+}  
+  
+p{  
+    margin: 10px 0px 10px 0px; /* Add some padding to the top and bottom of the <p> tags */  
+	font: 16px "Lucida Grande";
+}  
+  
+/* Header */  
+  
+#header{  
+    height: 45px; /* Set header height */  
+    background: #464646; /* Set header background color */  
+}  
+  
+#header h3{  
+    color: #FFFFF3; /* Set header heading(top left title ) color */  
+    padding: 10px; /* Set padding, to center it within the header */  
+    font-weight: normal; /* Set font weight to normal, default it was set to bold */  
+}  
+  
+/* Wrap */  
+  
+#wrap{  
+    background: #FFFFFF; /* Set content background to white */  
+    width: 615px; /* Set the width of our content area */  
+    margin: 0 auto; /* Center our content in our browser */  
+    margin-top: 50px; /* Margin top to make some space between the header and the content */  
+    padding: 10px; /* Padding to make some more space for our text */  
+    border: 1px solid #DFDFDF; /* Small border for the finishing touch */  
+    text-align: center; /* Center our content text */  
+}  
+  
+#wrap h3{  
+    font: italic 22px Georgia; /* Set font for our heading 2 that will be displayed in our wrap */  
+}  
+  
+/* Form & Input field styles */   
+  
+form{  
+    margin-top: 10px; /* Make some more distance away from the description text */  
+}    
+.form-container {
+   border: 1px solid #f2e3d2;
+   background: #c9b7a2;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f2e3d2), to(#c9b7a2));
+   background: -webkit-linear-gradient(top, #f2e3d2, #c9b7a2);
+   background: -moz-linear-gradient(top, #f2e3d2, #c9b7a2);
+   background: -ms-linear-gradient(top, #f2e3d2, #c9b7a2);
+   background: -o-linear-gradient(top, #f2e3d2, #c9b7a2);
+   background-image: -ms-linear-gradient(top, #f2e3d2 0%, #c9b7a2 100%);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   font-family: 'Helvetica Neue',Helvetica,sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:300px;
+   }
+.form-field {
+   border: 1px solid #c9b7a2;
+   background: #ffffff;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #c9b7a2;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   }
+.form-field:focus {
+   background: #fff;
+   color: #725129;
+   }
+.form-container h2 {
+   text-shadow: #fdf2e4 0 1px 0;
+   font-size:18px;
+   color: #000000;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   margin-bottom:10px;
+   color: #725129;
+   text-shadow: #fdf2e4 0 1px 0;
+   }
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+.submit_button {
+   border: 1px solid #447314;
+   background: #6aa436;
+   background: -webkit-gradient(linear, left top, left bottom, from(#8dc059), to(#6aa436));
+   background: -webkit-linear-gradient(top, #8dc059, #6aa436);
+   background: -moz-linear-gradient(top, #8dc059, #6aa436);
+   background: -ms-linear-gradient(top, #8dc059, #6aa436);
+   background: -o-linear-gradient(top, #8dc059, #6aa436);
+   background-image: -ms-linear-gradient(top, #8dc059 0%, #6aa436 100%);
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #addc7e 0 1px 0;
+   color: #31540c;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit_button:hover {
+   border: 1px solid #447314;
+   text-shadow: #31540c 0 1px 0;
+   background: #6aa436;
+   background: -webkit-gradient(linear, left top, left bottom, from(#8dc059), to(#6aa436));
+   background: -webkit-linear-gradient(top, #8dc059, #6aa436);
+   background: -moz-linear-gradient(top, #8dc059, #6aa436);
+   background: -ms-linear-gradient(top, #8dc059, #6aa436);
+   background: -o-linear-gradient(top, #8dc059, #6aa436);
+   background-image: -ms-linear-gradient(top, #8dc059 0%, #6aa436 100%);
+   color: #fff;
+   }
+.submit_button:active {
+   text-shadow: #31540c 0 1px 0;
+   border: 1px solid #447314;
+   background: #8dc059;
+   background: -webkit-gradient(linear, left top, left bottom, from(#6aa436), to(#6aa436));
+   background: -webkit-linear-gradient(top, #6aa436, #8dc059);
+   background: -moz-linear-gradient(top, #6aa436, #8dc059);
+   background: -ms-linear-gradient(top, #6aa436, #8dc059);
+   background: -o-linear-gradient(top, #6aa436, #8dc059);
+   background-image: -ms-linear-gradient(top, #6aa436 0%, #8dc059 100%);
+   color: #fff;
+   }
+#wrap .statusmsg{  
+    font-size: 12px; /* Set message font size  */  
+    padding: 3px; /* Some padding to make some more space for our text  */  
+    background: #EDEDED; /* Add a background color to our status message   */  
+    border: 1px solid #DFDFDF; /* Add a border arround our status message   */  
+} 
+input[type=radio]{
+	margin-left:10px;
+}
+#overlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#modal {
+    position:absolute;
+    background:url(tint20.png) 0 0 repeat;
+    background:rgba(0,0,0,0.2);
+    border-radius:14px;
+    padding:8px;
+}
+
+#content {
+    border-radius:8px;
+    background:#fff;
+    padding:20px;
+}
+#close {
+    position:absolute;
+    background:url(close.png) 0 0 no-repeat;
+    width:24px;
+    height:27px;
+    display:block;
+    text-indent:-9999px;
+    top:-7px;
+    right:-7px;
+}
